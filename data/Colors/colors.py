@@ -1,0 +1,22 @@
+# Criei uma pasta e um arquivo totalmente dedicado as cores
+
+
+Preto='\033[1;30m'
+Vermelho='\033[1;31m'
+Verde='\033[1;32m'
+Amarelo='\033[1;33m'
+Azul='\033[1;34m'
+Magenta='\033[1;35m'
+Cyan='\033[1;36m'
+Cinza_Claro='\033[1;37m'
+Cinza_Escuro='\033[1;90m'
+Vermelho_Claro='\033[1;91m'
+Verde_Claro='\033[1;92m='
+Amarelo_Claro='\033[1;93m'
+Azul_Claro='\033[1;94m'
+Magenta_Claro='\033[1;95m'
+Cyan_Claro='\033[1;96m'
+Branco='\033[1;97m'
+Negrito='\033[;1m'
+Inverte='\033[;7m'
+Reset='\033[0;0m'
