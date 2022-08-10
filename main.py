@@ -10,7 +10,7 @@ from sys import executable, argv
 try:
     from requests import get
 except:
-    system('python3 -m pip install --upgrade pip && pip3 install requests TerminalButtons')
+    system('clear')
     execl(executable, executable, *argv)
 try:
     exec(
