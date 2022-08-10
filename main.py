@@ -6,13 +6,9 @@
 from os import execl, path, system
 from sys import executable, argv
 
-if path.exists("aviso_read?") == False:
-    with open('aviso_read?', 'w+') as f:
-        system('cat aviso.txt')
-        input()
-        f.write('true')
+
 try:
-    from requests import get;from TerminalButtons import *
+    from requests import get
 except:
     system('python3 -m pip install --upgrade pip && pip3 install requests TerminalButtons')
     execl(executable, executable, *argv)
