@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+############## Abouts #################
+# Coders: V-G-N 
 # Instagram: vangogh.nithz
+# GitHub: https://github.com/V-G-N
+#######################################
 
 from os import execl, path, system
 from sys import executable, argv
